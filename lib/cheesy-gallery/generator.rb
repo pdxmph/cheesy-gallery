@@ -87,8 +87,8 @@ class CheesyGallery::Generator < Jekyll::Generator
           collection,
           doc.data['thumbnail_source'],
           '_index.jpg',
-          collection.metadata['gallery_thumbnail_size'] || 72,
-          collection.metadata['gallery_thumbnail_size'] || 72,
+          collection.metadata['gallery_thumbnail_size'] || 400,
+          collection.metadata['gallery_thumbnail_size'] || 400,
         )
       end
 
