@@ -104,8 +104,8 @@ class CheesyGallery::Generator < Jekyll::Generator
         CheesyGallery::ImageThumb.new(
           site, collection, f,
           '_thumb.jpg',
-          collection.metadata['image_thumbnail_size'] || 150,
-          collection.metadata['image_thumbnail_size'] || 150
+          collection.metadata['image_thumbnail_size'] || 400,
+          collection.metadata['image_thumbnail_size'] || 400
         )
       end
 
